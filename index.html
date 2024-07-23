@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="nofollow">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Menú Encabezado -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">HARBEY</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#abautme" onclick="seleccionar()">ABAUT ME</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION DE INICIO -->
+    <section id="inicio" class="inicio">
+        <div  class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="">
+            </div>
+            <h1>HARBEY ESCALA</h1>
+            <h2>DESARROLLADOR FRONT</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/harvey-escala-958563287/" rel="noopener no-referrer nofollow" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Harvey1509" rel="noopener no-referrer nofollow" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="abautme" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p><span>Hola, soy Harbey Escala</span> Soy un estudiante apasionado por el aprendizaje continuo y el crecimiento profesional. Actualmente, estoy enfocado en especializarme en desarrollo web, buscando siempre nuevas oportunidades para expandir mis conocimientos y habilidades en este campo dinámico y en constante evolución. Mi objetivo es convertirme en un experto en la creación de experiencias digitales innovadoras y eficientes.</p>
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            15-09-2004
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +51 983152162
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            harvey150905@gmail.com
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Freelancer</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSICA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                DESCARGAR CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--techinical Skill-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="skill">
+                        <span>PHP & MySQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="skill">
+                        <span>UNITY</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <!--Porfesional skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="skill">
+                        <span>leader</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="https://st2.depositphotos.com/2267983/7155/i/450/depositphotos_71559811-stock-photo-blurred-pastel-background.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcfgxINfKHmQq_8cobIdrLejrMwWFrGjzUVw&s" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://img.freepik.com/vector-gratis/fondo-acuarela-lamina-dorada_52683-46208.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://img.freepik.com/vector-gratis/fondo-floral-acuarela-pintada-mano_23-2149011310.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkjKS4gNOJ7MD60FNP6PbBftSSiPbq7Mqf-A&s" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkjKS4gNOJ7MD60FNP6PbBftSSiPbq7Mqf-A&s" alt="">
+                    <div class="overlay">
+                        <h3>Creative Design</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tú nombre">
+                    <input type="text" placeholder="Número de contacto">
+                    <input type="text" placeholder="Direccion de correo">
+                    <input type="text" placeholder="tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--MAPA-->
+                <div class="col">
+                    <img src="https://i.blogs.es/ad5d00/ubicacion-google/1366_2000.jpeg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-pin"></i>
+                                Condominios Sol de retablo Mz.E block 11
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                llamanos: +51 983152162
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: example@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/harvey-escala-958563287/" rel="noopener no-referrer nofollow" target="_blank" ><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Harvey1509" rel="noopener no-referrer nofollow" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
